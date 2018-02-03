@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sammy007/open-ethereum-pool/rpc"
-	"github.com/sammy007/open-ethereum-pool/storage"
+	"github.com/bitminingdottv/open-ethash-pool/rpc"
+	"github.com/bitminingdottv/open-ethash-pool/storage"
 )
 
 func TestMain(m *testing.M) {
