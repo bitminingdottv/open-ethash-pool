@@ -2,7 +2,7 @@
 
 ![Miner's stats page](https://user-images.githubusercontent.com/7374093/31591180-43c72364-b236-11e7-8d47-726cd66b876a.png)
 
-[![Build Status](https://travis-ci.org/bitminingdottv/open-ethash-pool.svg?branch=develop)](https://travis-ci.org/bitminingdottv/open-ethash-pool) [![Go Report Card](https://goreportcard.com/badge/github.com/bitminingdottv/open-ethash-pool)](https://goreportcard.com/report/github.com/bitminingdottv/open-ethash-pool)
+[![Build Status](https://travis-ci.org/bitminingdottv/open-ethash-pool.svg?branch=master)](https://travis-ci.org/bitminingdottv/open-ethash-pool) [![Go Report Card](https://goreportcard.com/badge/github.com/bitminingdottv/open-ethash-pool)](https://goreportcard.com/report/github.com/bitminingdottv/open-ethash-pool)
 
 ### Features
 
