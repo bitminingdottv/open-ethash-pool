@@ -1,4 +1,4 @@
-## Open Source Ethereum Mining Pool
+## Open Source Ethash Mining Pool
 
 ![Miner's stats page](https://user-images.githubusercontent.com/7374093/31591180-43c72364-b236-11e7-8d47-726cd66b876a.png)
 
@@ -6,14 +6,17 @@
 
 ### Features
 
-**This pool is being further developed to provide an easy to use pool for Ethereum miners. This software is functional however an optimised release of the pool is expected soon. Testing and bug submissions are welcome!**
+**This pool is being further developed to provide an easy to use pool for Ethereum & Ethash coin miners. This software is functional however an optimised release of the pool is expected soon. Testing and bug submissions are welcome!**
 
+* Ethash based multicoin support (Including Ethereum, Ethereum Classic, Expanse, Musicoin and much more!)
+* Multi-language support
 * Support for HTTP and Stratum mining
 * Detailed block stats with luck percentage and full reward
 * Failover geth instances: geth high availability built in
 * Modern beautiful Ember.js frontend
 * Separate stats for workers: can highlight timed-out workers so miners can perform maintenance of rigs
 * JSON-API for stats
+* Dev fee 10% from pool fee are optional
 
 #### Proxies
 
@@ -303,13 +306,9 @@ I recommend this deployment strategy:
 * Don't run payouts and unlocker modules as part of mining node. Create separate configs for both, launch independently and make sure you have a single instance of each module running.
 * If `poolFeeAddress` is not specified all pool profit will remain on coinbase address. If it specified, make sure to periodically send some dust back required for payments.
 
-### Alternative Ethereum Implementations
-
-This pool is tested to work with [Ethcore's Parity](https://github.com/ethcore/parity). Mining and block unlocking works, but I am not sure about payouts and suggest to run *official* geth node for payments.
-
 ### Credits
 
-Made by sammy007. Licensed under GPLv3.
+Made by bitminings and originaly written by [sammy007](https://github.com/sammy007). Licensed under GPLv3.
 
 #### Contributors
 

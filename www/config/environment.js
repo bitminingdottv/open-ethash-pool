@@ -14,6 +14,9 @@ module.exports = function(environment) {
     },
 
     APP: {
+      // Browser Title
+      BrowserTitle: 'Ethash Mining Pool',
+
       // API host and port
       ApiUrl: '//example.net/',
 
@@ -27,7 +30,7 @@ module.exports = function(environment) {
 
       // Fee and payout details
       PoolFee: '1%',
-      PayoutThreshold: '0.5 Ether',
+      PayoutThreshold: '0.5 Coin',
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 14.4
