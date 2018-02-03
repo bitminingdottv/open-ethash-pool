@@ -4,6 +4,10 @@
 
 [![Build Status](https://travis-ci.org/bitminingdottv/open-ethash-pool.svg?branch=master)](https://travis-ci.org/bitminingdottv/open-ethash-pool) [![Go Report Card](https://goreportcard.com/badge/github.com/bitminingdottv/open-ethash-pool)](https://goreportcard.com/report/github.com/bitminingdottv/open-ethash-pool)
 
+### Warning
+
+**If you are looking for the other coin support, please fork the other branch!! For example, for Musicoin, fork music branch!**
+
 ### Features
 
 **This pool is being further developed to provide an easy to use pool for Ethereum & Ethash coin miners. This software is functional however an optimised release of the pool is expected soon. Testing and bug submissions are welcome!**
